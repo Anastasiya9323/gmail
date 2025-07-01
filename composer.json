@@ -1,0 +1,21 @@
+{
+    "name": "lenovo/gmail",
+    "description": "Package for test",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Lenovo\\Gmail\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anastasiya",
+            "email": "nastya.9323@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "google/apiclient": "2.0"
+    }
+}
